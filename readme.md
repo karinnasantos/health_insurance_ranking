@@ -40,7 +40,6 @@ Neste projeto foi necessário classificar os clientes em uma lista, desde o mais
 - <b> Coletando dados </b>: coleta de dados de um banco de dados PostgreSQL ou na plataforma do Kaggle.
 - <b> Limpeza dos dados </b>: Verificação de tipos de dados e Nan's, renomear colunas, lidar com outliers.
 - <b> Feature Engineering </b>: Criar novos recursos a partir dos originais, para que possam ser usados no modelo de ML.
-- <b> Feature Engineering </b>: Criar novos recursos a partir dos originais, para que possam ser usados no modelo de ML.
 -  <b> Exploratory Data Analysis (EDA) </b>: Em tal etapa, os dados foram explorado para obter experiência de negócios, buscar insights úteis e encontrar recursos importantes para o modelo de ML. 
 - <b> Preparação de Dados </b>: Aplicação de Técnicas de Normalização e Reescalonamento nos dados; métodos de Encondagem e Transformação de Variáveis ​​de Resposta.
 - <b> Seleção de features </b>: Selecionando os melhores features para serem usadas ​​no modelo de ML.
@@ -52,7 +51,7 @@ Neste projeto foi necessário classificar os clientes em uma lista, desde o mais
     -  Aplicar validação cruzada em cada modelo, reduzindo o viés de seleção (teoria da amostragem), por utilizar várias amostras diferentes dos dados.
     - Calcular precison@k/recall@k dos 4 modelos, e selecionar o de melhor performance.
     - Submeter esse modelo aos dados de teste, e plotar suas curvas de ganho cumulativo e lift.
-- <b> Convert Model Performance to Business Values </b>: 
+- <b> Performance do modelo </b>: 
     - Responder as questões de negócio.
     - Traduzir a performance do modelo em resultados financeiros para a seguradora.
 
@@ -117,7 +116,7 @@ Neste projeto foi necessário classificar os clientes em uma lista, desde o mais
 
 - K é igual a 20.000 ou 40.000, dado nosso problema de negócios. 
 
-- <b> O modelo escolhido neste projeto foi o XGBoost </b>: pois o algoritmo mais rápido para treinar e ajustar, embora seja aquele com melhores resultados sem nenhum ajuste.
+- <b> O modelo escolhido neste projeto foi o XGBoost </b>: pois o algoritmo mais rápido para treinar e ajustar.
 
 - <b> Precision at K </b>: Mostra a fração de previsões corretas feitas até K de todas as previsões.
 
